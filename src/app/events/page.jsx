@@ -47,7 +47,7 @@ const Events = () => {
             <h1 className="text-[#000000] text-5xl mt-4">
                 Our Events
             </h1>
-            <h1 className="text-[#000000] text-4xl font-bold mt-28">
+            <h1 className="text-[#000000] text-4xl mt-28">
                 General Body Meetings (GBMs)
             </h1>
             <h2 className=" text-[#000000] max-w-[1200px] text-2xl mt-16">
@@ -78,26 +78,26 @@ const Events = () => {
             </h1>
         </div>
 
-            {/* Upcoming Events */}
-            <div className="w-full bg-[#FDFAED] p-8">
-                <div className="max-w-[1200px] mx-auto bg-[#342C21] p-6 rounded-3xl flex justify-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                        {/* Map data to event boxes */}
-                        {events.map((event, index) => (
-                            <div key={index} className="flex bg-[#FDFAED] p-6 rounded-lg shadow-lg">
-                                {/* Date Section */}
-                                <div className="w-1/3 bg-[#342C21] text-white text-center py-4 flex flex-col justify-center items-center rounded-l-lg">
-                                    <p className="text-2xl">{event.date}</p>
-                                    <p className="text-xl">{event.day}</p>
-                                    <p className="text-lg">{event.time}</p>
-                                </div>
-
-                                {/* Event Info Section */}
-                                <div className="w-2/3 flex flex-col justify-center pl-6">
-                                    <h3 className="text-[#342C21] text-2xl font-bold">{event.title}</h3>
-                                    <p className="text-[#342C21] text-lg mt-2">{event.description}</p>
-                                </div>
+        {/* Upcoming Events */}
+        <div className="w-full bg-[#FDFAED] p-8">
+            <div className="max-w-[1200px] mx-auto bg-[#342C21] p-6 rounded-3xl flex justify-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    {/* Map data to event boxes */}
+                    {events.map((event, index) => (
+                        <div key={index} className="flex bg-[#FDFAED] p-6 rounded-lg shadow-lg">
+                            {/* Date Section */}
+                            <div className="w-1/3 bg-[#342C21] text-white text-center py-4 flex flex-col justify-center items-center rounded-l-lg">
+                                <p className="text-2xl">{event.date}</p>
+                                <p className="text-xl">{event.day}</p>
+                                <p className="text-lg">{event.time}</p>
                             </div>
+
+                            {/* Event Info Section */}
+                            <div className="w-2/3 flex flex-col justify-center pl-6">
+                                <h3 className="text-[#342C21] text-2xl font-bold">{event.title}</h3>
+                                <p className="text-[#342C21] text-lg mt-2">{event.description}</p>
+                            </div>
+                        </div>
                         ))}
                     </div>
                 </div>
