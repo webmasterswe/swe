@@ -13,7 +13,7 @@ const Committee = () => {
   };
   return (
     <div className="bg-[#F2F2F2] ">
-      <div className="flex container mx-auto min-h-screen">
+      <div className="flex container mx-auto my-20">
         <div className="w-1/2 content-center px-8">
           <h2 className="text-[#7D688F] text-4xl font-bold my-8">
             SWE-ET Committees
