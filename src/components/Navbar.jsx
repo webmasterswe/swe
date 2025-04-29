@@ -50,8 +50,18 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-3 mx-2 text-[#5A5476]">
-              <Link href="">Events</Link>
+            <div className="relative group p-3 mx-2 text-[#5A5476]">
+              <Link href="/events">Events</Link>
+              <ul className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-300 z-50">
+                <li>
+                  <Link
+                    href="/events/conference"
+                    className="block px-4 py-3 w-full hover:bg-gray-100 cursor-pointer text-left"
+                  >
+                    Conferences
+                  </Link>
+                </li>
+              </ul>
             </div>
             {/* <div className="p-3 mx-2 text-[#5A5476] ">
               <Link href="">Gallery</Link>
