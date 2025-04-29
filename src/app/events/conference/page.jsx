@@ -126,7 +126,7 @@ const Conference = () => {
             Explore All Upcoming Conferences and Opportunities!
           </div>
           <a href="/events" target="_blank" rel="noopener noreferrer">
-            <button className="mt-4 px-10 py-4 hover:text-gray-200 bg-[#7D688F] text-white text-lg font-medium rounded-[45px] shadow-lg">
+            <button className="mt-4 px-10 py-4  bg-[#FDD75C] text-[#7D688F] text-lg font-medium rounded-[45px] shadow-lg">
               View All Upcoming Events
             </button>
           </a>

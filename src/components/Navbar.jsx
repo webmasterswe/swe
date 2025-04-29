@@ -13,9 +13,9 @@ const Navbar = () => {
             <div className="p-3 mx-2 text-[#5A5476] ">
               <Link href="/">Home</Link>
             </div>
-            <div className="p-3 mx-2 text-[#5A5476] ">
+            {/* <div className="p-3 mx-2 text-[#5A5476] ">
               <Link href="/about">About</Link>
-            </div>
+            </div> */}
             <div className="p-3 mx-2 text-[#5A5476]">
               <Link href="/officers">Officers</Link>
             </div>

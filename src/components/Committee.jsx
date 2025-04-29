@@ -33,7 +33,8 @@ const Committee = () => {
             events, and connect with like-minded peers who share your passion
             for advancing diversity and inclusion in engineering.
           </p>
-          <button className="border rounded-3xl bg-[#7D688F] opacity-55 py-2 px-4 text-white my-4">
+          <button className="border rounded-3xl bg-[#FDD75C] my-2 py-2 px-10 text-[#7D688F] font-semibold">
+            {" "}
             Get involved
           </button>
         </div>
