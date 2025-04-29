@@ -1,4 +1,4 @@
-import Home from "@/components/home";
+import Home from "@/components/Home";
 import Newsletter from "@/components/Newsletter";
 import Navbar from "@/components/Navbar";
 import ShortAbout from "@/components/ShortAbout";
