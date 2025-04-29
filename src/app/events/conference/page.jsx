@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Upcoming from "@/components/Upcoming";
 import React from "react";
 
 const Conference = () => {
@@ -19,15 +18,15 @@ const Conference = () => {
       <Navbar />
       <div className="w-full min-h-screen bg-[#b2a6bb] flex flex-col items-center">
         {/* Background square behind the intro + image section */}
-        <div className="w-full bg-[#f2f2f2] pt-20 pb-20">
+        <div className="w-full bg-[#f2f2f2] pt-16 pb-20">
           {/* Intro + Image Section */}
           <div className="w-[90%] max-w-[1200px] bg-[#f2f2f2] mx-auto flex flex-col md:flex-row items-center">
             {/* Just Intro Section */}
             <div className="md:w-2/3 text-left">
-              <h1 className="text-[#000000] text-4xl font-bold">
+              <h1 className="text-[#5A5476] text-4xl font-bold">
                 Attend SWE Conferences
               </h1>
-              <h2 className="text-[#000000] text-[20px] font-bold mt-2">
+              <h2 className="text-[#5A5476] text-[20px] font-bold mt-2">
                 Connect, Inspire, and Lead in Engineering
               </h2>
               <p className="text-[#000000] text-lg font-medium mt-4 max-w-[800px]">
@@ -41,7 +40,7 @@ const Conference = () => {
             {/* PNG Image */}
             <div className="md:w-1/3 flex justify-center">
               <img
-                src="/images/triangle.png"
+                src="/triangle.png"
                 alt="Conference Image"
                 className="max-w-[270px] h-auto rounded-lg"
               />
@@ -60,7 +59,7 @@ const Conference = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className="text-[#000000] text-3xl hover:text-blue-800 font-bold">
+            <h2 className="text-[#5A5476] text-3xl hover:text-blue-800 font-bold">
               SWE Local Conferences
             </h2>
           </a>
@@ -82,12 +81,12 @@ const Conference = () => {
         <div className="max-w-[1200px] flex items-start justify-between space-x-6">
           {/* Images Section */}
           <img
-            src="/images/groupswe24.png"
+            src="/groupswe24.png"
             alt="Group SWE 24 Photo"
             className="w-[25%] h-auto"
           />
           <img
-            src="/images/welcomeswe24.png"
+            src="/welcomeswe24.png"
             alt="Welcome SWE 24"
             className="w-[25%] h-auto"
           />
@@ -99,7 +98,7 @@ const Conference = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="text-[#000000] text-3xl hover:text-blue-800 font-bold">
+              <h2 className="text-[#5A5476] text-3xl hover:text-blue-800 font-bold">
                 SWE National Conferences
               </h2>
             </a>
@@ -122,8 +121,17 @@ const Conference = () => {
         </div>
 
         {/* Upcoming Conferences */}
+        <div className="relative w-full bg-[#f2f2f2] pb-20 text-center mt-[-50px]">
+          <div className="mt-10 text-[#5a5574] text-lg">
+            Explore All Upcoming Conferences and Opportunities!
+          </div>
+          <a href="/events" target="_blank" rel="noopener noreferrer">
+            <button className="mt-4 px-10 py-4 hover:text-gray-200 bg-[#7D688F] text-white text-lg font-medium rounded-[45px] shadow-lg">
+              View All Upcoming Events
+            </button>
+          </a>
+        </div>
       </div>
-      <Upcoming />
     </>
   );
 };
