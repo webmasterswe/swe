@@ -47,11 +47,6 @@ const officers = [
     photo: "./user.png",
   },
   {
-    name: "Pilar Carbajall",
-    title: "Public Relations",
-    photo: "./user.png",
-  },
-  {
     name: "Taylor Bedrin",
     title: "Industry Chair",
     photo: "./user.png",
