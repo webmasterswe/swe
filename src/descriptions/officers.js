@@ -1,48 +1,48 @@
 const officers = [
   {
-    name: "Deiya Paul",
+    name: "Simrandeep Kandola",
     title: "President",
     photo: "./user.png",
   },
 
   {
-    name: "Ksenia Trusova",
+    name: "Samantha Catacutan",
     title: "Vice President",
     photo: "./user.png",
   },
 
   {
-    name: "Jalisa Lopez",
+    name: "Khayla Hernandez",
     title: "Treasurer",
     photo: "./user.png",
   },
   {
-    name: "Katy Medina",
+    name: "Jasmine Torres",
     title: "Secretary",
     photo: "./user.png",
   },
   {
-    name: "Jasmine Torress",
+    name: "Riley Moore",
     title: "Membership Chair",
     photo: "./user.png",
   },
   {
-    name: "Nicole Martinez",
+    name: "Veronica Hotchkiss",
     title: "Fundraising Chair",
     photo: "./user.png",
   },
   {
-    name: "Samatha Catacutan",
+    name: "Rikhi Joseph",
     title: "Publicity Chair",
     photo: "./user.png",
   },
   {
-    name: "Colleen Mesina",
+    name: "Anjila Thapa",
     title: "Project Manager",
     photo: "./user.png",
   },
   {
-    name: "Alesha Bajarias",
+    name: "Pilar Carbajal",
     title: "Involvement Chair",
     photo: "./user.png",
   },
@@ -52,22 +52,27 @@ const officers = [
     photo: "./user.png",
   },
   {
-    name: "Karina Aviles",
+    name: "Taylor Bedrin",
     title: "Industry Chair",
     photo: "./user.png",
   },
   {
-    name: "Khayla Hernandez",
+    name: "Colleen Mesina",
     title: "Outreach Chair",
     photo: "./user.png",
   },
   {
-    name: "Zophia Laud",
+    name: "Phoebe Ho",
+    title: "Outreach Chair",
+    photo: "./user.png",
+  },
+  {
+    name: "Kiki Han",
     title: "Webmaster",
     photo: "./user.png",
   },
   {
-    name: "Simrandeep Kandola",
+    name: "Ava Eazor",
     title: "Historian",
     photo: "./user.png",
   },
