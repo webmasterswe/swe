@@ -17,7 +17,7 @@ const Newsletter = () => {
           you’ll always know what’s going on in the SWE community.
         </p>
         <a
-          href="https://csulb.campuslabs.com/engage/organization/society-of-women-engineers-swe"
+          href="https://csulbswe.us19.list-manage.com/subscribe?u=73c12b372448a8a4f26e6954d&id=c13e7d3c17"
           target="_blank"
           className="border rounded-3xl bg-[#FDD75C] py-2 px-10 text-[#7D688F] font-semibold "
         >
