@@ -18,6 +18,12 @@ const events = [
   //     "A workshop focusing on building leadership skills for aspiring engineers in the STEM field.",
   // },
   // Add more events as needed
+  {
+    date: "2026-04-19 21:00",
+    title: "SWE Officers Elections",
+    description: "Apply to be a SWE Officer! Scan the QR code to apply!",
+    image: "/elections_flyer.jpg",
+  },
 ];
 
 export default events;

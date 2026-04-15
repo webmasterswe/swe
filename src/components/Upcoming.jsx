@@ -1,4 +1,5 @@
 import events from "@/descriptions/events";
+import Image from "next/image";  // Add this import for optimized images
 
 const Upcoming = () => {
   const sortedEvents = [...events].sort(
@@ -27,17 +28,27 @@ const Upcoming = () => {
                 return (
                   <div
                     key={index}
-                    className="bg-white rounded-lg shadow-md flex p-4  break-inside-avoid"
+                    className="bg-white rounded-lg shadow-md flex p-4 break-inside-avoid"
                   >
                     {/* Date Section */}
                     <div className="w-1/3 bg-[#f2f2f2] text-[#7D688F] text-center py-2 flex flex-col justify-center items-center rounded-l-lg font-semibold">
-                      <p className="text-xl">{month}</p>
-                      <p className="text-xl font-bold ">{day}</p>
-                      <p className="text-base">{time}</p>
+                      <p className="text-sm uppercase tracking-[0.2em]">Deadline:</p>
+                      <p className="text-xl">{month} {day}</p>
+                      <p className="text-base">@ {time}</p>
                     </div>
 
                     {/* Event Info Section */}
                     <div className="w-2/3 flex flex-col justify-center pl-6 py-4">
+                      {/* Add image here if it exists */}
+                      {event.image && (
+                        <Image
+                          src={event.image}
+                          alt={event.title}
+                          width={300}  // Set a base width (adjust as needed)
+                          height={200} // Set a base height (adjust as needed)
+                          className="w-full h-auto rounded-lg mb-4 object-cover"
+                        />
+                      )}
                       <h3 className="text-[#5A5476] text-lg font-bold">
                         {event.title}
                       </h3>
@@ -49,7 +60,7 @@ const Upcoming = () => {
                 );
               })
             ) : (
-              <p className=" text-xl text-[#342C21] mt-4">No upcoming events</p>
+              <p className="text-xl text-[#342C21] mt-4">No upcoming events</p>
             )}
           </div>
         </div>
