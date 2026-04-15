@@ -35,11 +35,6 @@ const roles = [
       "In charge of being liaison for SWE Officers and updates on SWE Engineering Project",
   },
   {
-    title: "Public Relations",
-    description:
-      "Serves as Senator for SWE and attends bi-monthly Friday AESB meetings",
-  },
-  {
     title: "Webmaster",
     description:
       "Keeps csulbswe.com website up-to-date with current and upcoming events at all times",
